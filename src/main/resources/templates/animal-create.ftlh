@@ -7,7 +7,7 @@
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-<nav data-th-insert="~{./fragments/navigation :: #global-nav}"></nav>
+<#include "./fragments/navigation.ftlh">
 <div class="container">
     <h1>Create a new Animal</h1>
     <form action="/animals/new" method="post">

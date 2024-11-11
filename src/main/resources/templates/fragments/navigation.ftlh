@@ -24,9 +24,6 @@
       <a class="nav-link active" aria-current="page" href="#" style="color: #ffff ">Third</a>
     </li>
   </ul>
-  <form class="form-inline" action="/logout" method="post">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Out</button>
-  </form>
 </nav>
 </body>
 </html>
