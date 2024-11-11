@@ -9,7 +9,7 @@
 <body>
 <nav data-th-insert="~{./fragments/navigation :: #global-nav}"></nav>
 <div class="container">
-    <h1>Update: Impala</h1>
+    <h1 data-th-text="'Update: '+ ${animal.name}"></h1>
     <form action="/animals/update" method="post">
         ID: <input type="text" class="form-control" id="animalId" name="animalId" data-th-value="${animal.animalId}"
                    readonly>
